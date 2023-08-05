@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
+        logoFont: ["Dancing Script", "sans-serif"]
       },
       colors: {
         bodyColor: "#212428",
