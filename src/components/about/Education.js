@@ -31,7 +31,7 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 1.5 } }}
       className="w-full"
     >
-        <div className="mx-auto mt-6 lgl:mt-14 w-[60%] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mx-auto mt-6 lgl:mt-14 w-[80%] md:w-[60%] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <AboutCard
             title="Master in Computer Application"
             subTitle="OUTR Bhubaneswar, Odisha"

@@ -8,19 +8,19 @@ const Media = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+          <div className="flex gap-8">
+            <a href='https://twitter.com/Jaganna92887247' target='_blank'
+            rel='noreferrer' className="bannerIcon">
               <FaTwitter />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a href='https://www.linkedin.com/in/jagannath-nayak-031bbb229/' target='_blank'
+            rel='noreferrer' className="bannerIcon">
               <FaLinkedinIn />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a href='https://github.com/Jaga2105' target='_blank'
+            rel='noreferrer' className="bannerIcon">
               <FaGithub />
-            </span>
+            </a>
           </div>
         </div>
         {/* <div>

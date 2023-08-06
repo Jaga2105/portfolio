@@ -27,9 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Front-End Developer who is passionate about developing end-to-end web solutions with creativity and technical excellence.
         </p>
         <button className=' flex justify-between items-center bg-designColor text-white px-4 py-2 w-[120px] rounded-md'>Hire Me
         <BsDownload/></button>
