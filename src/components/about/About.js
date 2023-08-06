@@ -1,6 +1,8 @@
 import React, {  useState } from 'react'
-import Title from '../../helpers/Title';
-// import Education from './Education';
+// import Title from '../../helpers/Title';
+import Education from './Education';
+import Skills from './Skills';
+import Experience from './Experience';
 // import Skills from './Skills';
 // import Achievement from './Achievement';
 // import Experience from "./Experience"
@@ -10,10 +12,10 @@ const [active, setActive] = useState(1);
   return (
     <section id="about" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+      <h3 className="text-4xl md:text-4xl text-gray-300 font-bold capitalize mb-6">About me</h3>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3">
           <li
             onClick={() =>setActive(1)}
             className={`${
@@ -22,7 +24,7 @@ const [active, setActive] = useState(1);
                 : "border-transparent"
             } aboutLi`}
           >
-            Education
+            Experience
           </li>
           <li
             onClick={() =>setActive(2)}
@@ -41,15 +43,13 @@ const [active, setActive] = useState(1);
                 : "border-transparent"
             } aboutLi`}
           >
-            Experience
+            Education
           </li>
         </ul>
       </div>
-      {/* {educationData && <Education />}
-      {skillData && <Skills />}
-      {achievementData && <Achievement />}
-      {experienceData && <Experience />} */}
- 
+       {active===1 && <Experience/>}
+      {active===2 && <Skills/>}
+      {active===3 && <Education/>}
     </section>
   );
 }

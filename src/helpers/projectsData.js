@@ -1,6 +1,6 @@
-import  projectOne  from "../assets/projectOne.jpg";
-import  projectTwo  from "../assets/projectTwo.jpg";
-import  projectThree  from "../assets/projectThree.jpeg";
+import  projectOne  from "../assets/images/projectOne.jpg";
+import  projectTwo  from "../assets/images/projectTwo.jpg";
+import  projectThree  from "../assets/images/projectThree.jpeg";
 export const projects= [
     {
         title:"ReacTube",
