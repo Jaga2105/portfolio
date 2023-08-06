@@ -2,6 +2,7 @@ import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {BsDownload} from "react-icons/bs"
 import Media from './Media';
+import resume from "../../assets/JagannathNayak_Resume.pdf"
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -14,7 +15,6 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-6">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-5xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Jagannath Nayak</span>
         </h1>
@@ -29,8 +29,8 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         Front-End Developer who is passionate about developing end-to-end web solutions with creativity and technical excellence.
         </p>
-        <button className=' flex justify-between items-center bg-designColor text-white px-4 py-2 w-[120px] rounded-md'>Hire Me
-        <BsDownload/></button>
+        <a href={resume} target='_blank'  className=' flex justify-between items-center bg-designColor text-white px-4 py-2 w-[120px] rounded-md'>Resume
+        <BsDownload/></a>
       </div>
      {/* Media */}
      <Media />
