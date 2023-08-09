@@ -15,7 +15,7 @@ const [active, setActive] = useState(1);
       <h3 className="text-3xl md:text-3xl text-gray-300 font-bold capitalize mb-10">About me</h3>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 px-4 md:px-6 xl:px-0">
+        <ul className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 px-4 md:px-6 2xl:px-0">
           <li
             onClick={() =>setActive(1)}
             className={`${
