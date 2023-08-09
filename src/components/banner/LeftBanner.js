@@ -2,7 +2,7 @@ import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {BsDownload} from "react-icons/bs"
 import Media from './Media';
-import resume from "../../assets/JagannathNayak_Resume.pdf"
+import resume from "../../assets/Resume_2.0.pdf"
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
