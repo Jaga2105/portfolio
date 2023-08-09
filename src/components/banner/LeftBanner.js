@@ -6,7 +6,7 @@ import resume from "../../assets/JagannathNayak_Resume.pdf"
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Frontend Developer", "Proffessional Coder", "MERN Stack Developer."],
+      words: ["Frontend Developer", "MERN Stack Developer"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,

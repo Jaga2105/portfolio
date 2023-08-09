@@ -43,7 +43,7 @@ const Skills = () => {
                   key={'icon-' + i + 1}
                   variants={item}
                 >
-                  <img src={lang.src} alt={lang.title} loading='lazy' />
+                  <img src={lang.src} alt={lang.title} loading='lazy' className='h-10 w-10'/>
                   <span className='text-black'>{lang.title}</span>
                 </motion.li>
               ))}
