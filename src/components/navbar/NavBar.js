@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 px-4 lg:px-10 xl:px-20 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-24 sticky top-0 z-50 px-4 lg:px-10 xl:px-10 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
         <span className='text-designColor font-logoFont text-3xl'>Jagannath</span>
       </div>
