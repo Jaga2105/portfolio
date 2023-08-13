@@ -9,7 +9,7 @@ const Contact = () => {
       className="mx-auto w-[60%] pt-10 pb-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <h3 className="text-4xl md:text-4xl text-gray-300 font-bold capitalize mb-10">
+        <h3 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize mb-10">
           Contact me
         </h3>
       </div>

@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText">
       <Navbar/>
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl">
       <Banner/>
       <About/>
       <Projects/>

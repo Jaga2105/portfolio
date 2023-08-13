@@ -12,10 +12,10 @@ const [active, setActive] = useState(1);
   return (
     <section id="about" className="w-full pt-10 pb-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-      <h3 className="text-3xl md:text-3xl text-gray-300 font-bold capitalize mb-10">About me</h3>
+      <h3 className="text-2xl md:text-3xl text-gray-300 font-bold capitalize mb-10">About me</h3>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 px-4 md:px-6 2xl:px-0">
+        <ul className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 px-4 md:px-10 lg:px-20 2xl:px-0">
           <li
             onClick={() =>setActive(1)}
             className={`${
