@@ -8,17 +8,17 @@ const LeftBanner = () => {
     const [text] = useTypewriter({
       words: ["Frontend Developer", "MERN Stack Developer"],
       loop: true,
-      typeSpeed: 20,
+      typeSpeed: 40,
       deleteSpeed: 10,
-      delaySpeed: 2000,
+      delaySpeed: 1000,
     });
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-6">
-        <h1 className="text-5xl font-bold text-white">
+        <h1 className="text-3xl md:text-4xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Jagannath Nayak</span>
         </h1>
-        <h2 className="text-3xl font-bold text-white">
+        <h2 className="text-2xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
